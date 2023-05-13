@@ -1,4 +1,4 @@
-import { Bulb } from '../Bulb/index.js';
+import { Bulb } from './Bulb/index.js';
 
 const appElm = document.querySelector('#app');
 
