@@ -10,9 +10,7 @@ export const Bulb = (props) => {
     element.addEventListener('click', () => {
         element.replaceWith(Bulb({
             isOn: !props.isOn,
-        }
-
-        ));
+        }));
     });
 
     return element;
